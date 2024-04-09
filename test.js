@@ -6,6 +6,8 @@ const port = 3000; // Change this to your desired port number
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+console.log("Connected to the live server...");
+
 const version = 'v18.0';
 const phoneNumberId = '255286924341589';
 // const userAccessToken = 'EAAFtZCeuJop0BOzwOGgIPjxYU7voc2S95chZAZBOgcBOLnvcTAG2KDd2SgKLu63tRZBt1ZAXCMNhQ5Jfen1hSPpK58r4FRgmmHKWSJL1svaUB3ObkdGCAuBlf8m1Y6fePZBNsxSyBeJALjk1UfiVvzZAGRaTyn6NwwFVa6deAG0omIvZC4QKmWIv6sYQhjtIOUrgwZBUTS41Woth3aXZCb5mQZD';
